@@ -1,0 +1,213 @@
+/* General CSS for Home Page, Navbar, and Footer */
+@media screen {
+
+body {
+    background-image: url(img/leaves.jpg);
+    background-position: left top;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    text-align: right;
+    transition: 1s;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: gray;
+}
+
+.border {
+    background-color: white; 
+    opacity: 0.8;
+    width: 90%;
+    overflow: hidden;
+}
+
+.profile-img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: 200;
+}
+
+.footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+em.fab {
+    color: #5f8667;
+    transition: 0.5s;
+}
+
+em.fab:hover {
+    color: gray;
+}
+}
+
+/* Responsive for Larger Screens */
+@media screen and (min-width: 1367px) {
+
+.navbar ul {
+    padding-right: 3%;
+}
+
+.navbar ul li {
+    padding: 15px 50px;
+}
+
+.navbar ul li a {
+    font-size: 25px;
+}
+
+.border {
+    margin: 80px auto;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+em.fab {
+    font-size: 30px;
+    padding: 20px;
+}
+}
+
+/* Responsive for Medium Screens */
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+.navbar ul {
+    padding-right: 3%;
+}
+    
+.navbar ul li {
+    padding: 15px 50px;
+}
+    
+.navbar ul li a {
+    font-size: 25px;
+}
+    
+.border {
+    margin: 80px auto;
+}
+    
+.profile-img {
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+    
+h2 {
+    font-size: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+    
+.footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+    
+em.fab {
+    font-size: 30px;
+    padding: 20px;
+}
+}
+
+/* Responsive for Smaller Screens */
+@media screen and (max-width: 1024px) {
+
+.navbar ul {
+    padding-right: 5%;
+}
+
+.navbar ul li {
+    padding: 15px 10px;
+}
+
+.navbar ul li a {
+    font-size: 22px;
+}
+
+.border {
+    margin: 70px auto;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 22px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+em.fab {
+    font-size: 30px;
+    padding: 15px;
+}
+}
